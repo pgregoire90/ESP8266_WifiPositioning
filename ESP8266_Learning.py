@@ -7,7 +7,7 @@ from sklearn import datasets, svm, metrics
 from mpl_toolkits.mplot3d import Axes3D
 
 import serial
-from ESP8266_functions import acquire, update_line
+from ESP8266_Functions import acquire
 
 com_port=6
 
